@@ -1,0 +1,110 @@
+
+
+ .menu-toggle {
+  display: block;
+  cursor: pointer;
+}
+
+.burger {
+  display: block;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  margin-left:20px;
+  margin-top: 15px;
+
+ 
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #de0d0d;
+  position: absolute;
+  transition: 0.4s;
+  z-index: 1; 
+ 
+}
+
+.bar1 {
+  top: 0;
+}
+
+.bar2 {
+  top: 8px;
+}
+
+.bar3 {
+  top: 16px;
+}
+
+.bar.open {
+  background-color: #c31f1f;
+}
+.bar.open.bar1{
+  transform: rotate(45deg)  ;
+}
+.bar.open.bar2{
+  opacity:0;
+
+}
+.bar.open.bar3{
+  transform: rotate(-45deg)translate(11px ,-12px) ;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: -300px; 
+  width: 250px;
+  height: 100%;
+  background-color:#0066b2;
+  padding: 20px;
+  transition: 0.4s;
+}
+
+.menu.open {
+  left: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+
+
+  /* Pour les écrans de taille moyenne comme les tablettes */
+  @media (max-width: 1023px) {
+   
+  
+    nav ul {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: block;
+      position: static; /* Changez la position à "static" pour éviter le positionnement absolu sur les petits écrans */
+      left: auto;
+      top: auto;
+      transition: all 0.2s;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+  
+  }
+  

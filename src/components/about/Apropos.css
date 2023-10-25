@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+.acceuil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-height: 100%;
+   
+  }
+  
+  .profil {
+    text-align: center;
+  }
+  .aboutMe{
+    text-align: center;
+    margin:10px 50px 10px 50px;
+   text-shadow: 2px 2px 4px #000000;
+   line-height:2em ;
+  }
+  .photo-profil {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 30px;
+    transition: transform 0.5s;
+  }
+  
+  .photo-profil:hover {
+    transform: scale(1.1);
+  }
+  
+  h2 {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s, transform 1s;
+    
+  }
+
+  h2 {
+    animation: typingH2 5s steps(30,end) infinite;
+  }
+  
+  
+  @keyframes typingH2 {
+    0% {
+      opacity: 0;
+      transform: translateX(-600px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(100px);
+    }
+  }
+  
+ 
+  
+  

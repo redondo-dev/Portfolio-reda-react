@@ -1,0 +1,90 @@
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+ 
+  .phone-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .link ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .link ul li {
+    margin-bottom: 10px;
+  }
+  
+  .link ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styles pour les écrans de petite taille (par exemple, smartphones) */
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .social-icons {
+      margin-bottom: 10px;
+    }
+  
+    .social-icons a {
+      font-size: 20px;
+    }
+  
+    .phone-icon {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .link ul li {
+      margin-bottom: 5px;
+    }
+  }
+  
+  /* Styles pour les écrans de très petite taille (par exemple, smartphones en mode portrait) */
+  @media screen and (max-width: 480px) {
+    .social-icons {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .social-icons a {
+      margin: 3px 5px;
+    }
+  
+    .contact-info p {
+      margin-top: 5px;
+    }
+  
+    .link ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

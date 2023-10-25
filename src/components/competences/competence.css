@@ -1,0 +1,13 @@
+
+
+ 
+
+.competences{
+    display:flex;
+    justify-content:space-between;
+    justify-items: center;
+    text-align: center;
+    margin:5em;
+    flex-wrap: wrap;  
+   
+}
