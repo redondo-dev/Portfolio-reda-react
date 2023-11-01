@@ -18,7 +18,7 @@ const Footer = () => {
           <FaInstagram className="icon" />
         </a> 
         <FaPhone className="phone-icon" />
-          <p>0033-6-34-40-43-48</p>
+          <p className="tel">0033-6-34-40-43-48</p>
       </section>
 
         <section className='link'>
@@ -40,7 +40,7 @@ const Footer = () => {
             </li>
           </ul>
            </section>
-          <p>All right reserved RIAD REDA FETHI 2023</p>
+          <p> All right reserved RIAD Reda Fethi ©2023 </p>
        
         </section>
     );

@@ -1,13 +1,18 @@
 
-
- 
-
 .competences{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     justify-items: center;
     text-align: center;
-    margin:5em;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;   
    
 }
+h1{
+    color: black;
+}
+@media screen and (max-width: 480px) {
+    .competences {
+   display: block;
+  
+   
+   }}  

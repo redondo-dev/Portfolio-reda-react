@@ -12,7 +12,7 @@ const Mescontact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //
+    
   };
 
   return (
@@ -26,7 +26,7 @@ const Mescontact = () => {
       >
         <Grid item xs={12} md={4}>
           <Box sx={{ p: 2 }}>
-  <Typography variant="h3" align="center" style={{ fontWeight: 'bold', fontFamily: 'sans-serif' }} mb={2}>
+  <Typography variant="h3" align="center" style={{ fontWeight: 'bold', fontFamily: 'sans-serif' }} mb={5}>
   Contactez Moi
 </Typography>
             <form onSubmit={handleSubmit}>

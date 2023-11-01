@@ -7,7 +7,13 @@
     justify-items: center;
     align-items: center;
     max-height: 100%;
+    background-image: url("../../assets/page-title.jpg");
+    background-color: #464646;
+    background-position: center;
    
+  }
+  .portfolio{
+    color: white;
   }
   
   .profil {
@@ -15,9 +21,12 @@
   }
   .aboutMe{
     text-align: center;
+    color:white;
     margin:10px 50px 10px 50px;
-   text-shadow: 2px 2px 4px #000000;
+   text-shadow: 2px 2px 4px #f4efef;
    line-height:2em ;
+
+
   }
   .photo-profil {
     max-width: 200px;
@@ -32,9 +41,12 @@
   
   h2 {
     display: inline-block;
-    opacity: 0;
+    opacity: 0; 
     transform: translateX(100px);
     transition: opacity 1s, transform 1s;
+    font-style: italic;
+    color: #f4efef;
+   
     
   }
 
