@@ -58,7 +58,7 @@
   left: -300px; 
   width: 250px;
   height: 100%;
-  background-color:hsl(237, 95%, 43%);
+  background-color:rgb(17, 17, 18);
   padding: 20px;
   transition: 0.4s;
 }

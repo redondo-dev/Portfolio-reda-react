@@ -14,36 +14,7 @@ const MesProjets = () => {
       <h1>Mes Projets</h1>
 
       <div className="projets">
-        <div className="projet1">
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              sx={{ height: 200 }}
-              src={imagevoiture}
-              alt="AMVTC"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Site pour chauffeur VTC
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Un site pour un chauffeur VTC avec des réservations et des ...
-              </Typography>
-            </CardContent>
-
-            <CardActions>
-              <a
-                href="URL_DE_VOTRE_SITE"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button size="small">Voir le site</Button>
-              </a>
-              <Button size="small">Voir plus ...</Button>
-            </CardActions>
-          </Card>
-        </div>
-
+       
         <div className="projet2">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -113,40 +84,7 @@ const MesProjets = () => {
             </CardActions>
           </Card>
         </div>
-        <div className="projet4">
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              sx={{ height: 200 }}
-              src="https://cdn.pixabay.com/photo/2015/09/09/20/33/basketball-933173_1280.jpg"
-              alt="api nba"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                API NBA
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Interface de classement de le conf-est NBA
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <a
-                href="URL_DE_VOTRE_SITE"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button size="small">Voir le site</Button>
-              </a>
-              <a 
-              href="https://" 
-              target="_blank" 
-              rel="noopener noreferrer">
-                <Button size="small">Voir lien GitHub</Button> 
-              </a>
-              
-            </CardActions>
-          </Card>
-        </div>
+     
         <div className="projet5">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -182,6 +120,40 @@ const MesProjets = () => {
             </CardActions>
           </Card>
         </div>
+        <div className="projet4">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src="https://cdn.pixabay.com/photo/2015/09/09/20/33/basketball-933173_1280.jpg"
+              alt="api nba"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                API NBA
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Interface de classement de le conf-est NBA
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <a
+                href="URL_DE_VOTRE_SITE"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir le site</Button>
+              </a>
+              <a 
+              href="https://" 
+              target="_blank" 
+              rel="noopener noreferrer">
+                <Button size="small">Voir lien GitHub</Button> 
+              </a>
+              
+            </CardActions>
+          </Card>
+        </div>
         <div className="projet6">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -209,8 +181,38 @@ const MesProjets = () => {
               <Button size="small">Voir plus ...</Button>
             </CardActions>
           </Card>
+</div>
+          <div className="projet1">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src={imagevoiture}
+              alt="AMVTC"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Site pour chauffeur VTC
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Un site pour un chauffeur VTC avec des réservations et des ...
+              </Typography>
+            </CardContent>
+
+            <CardActions>
+              <a
+                href="URL_DE_VOTRE_SITE"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir le site</Button>
+              </a>
+              <Button size="small">Voir plus ...</Button>
+            </CardActions>
+          </Card>
         </div>
-      </div> 
+        </div>
+       
     </>
   );
 };
