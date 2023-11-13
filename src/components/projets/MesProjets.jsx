@@ -97,13 +97,19 @@ const MesProjets = () => {
             </CardContent>
             <CardActions>
               <a
-                href="https://github.com/redondo-dev/api-cinema.git"
+                href="https://cinema-reda-riad.firebaseapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size="small">Voir le site</Button>
+                <Button size="small">voir le site </Button>
               </a>
-              <Button size="small">Voir plus ...</Button>
+             <a 
+             href="https://github.com/redondo-dev/apifilmreda" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
+              <Button size="small">Voir le lien Github </Button>
+              </a>
             </CardActions>
           </Card>
         </div>

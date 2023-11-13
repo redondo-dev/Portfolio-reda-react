@@ -1,5 +1,5 @@
 import React from "react";
-import monImage from "../../assets/reda.jpg";
+import monImage from "../../assets/redaprofil.png";
 import "./Apropos.css";
 const Apropos = () => {
   return (
@@ -12,7 +12,7 @@ const Apropos = () => {
       </div>
       <h1 className="portfolio">A Propos de Moi</h1>
       <p className="aboutMe">
-        "Passionné par le développement web et mobile, en tant que développeur débutant/junior, après avoir passé 8 mois à l'AFPA et acquis des compétences essentielles en plus de mes expériences autodidactes, j'ai développé une bonne connaissance des langages tels que HTML, CSS, JavaScript. J'ai également commencé à explorer des cadres et bibliothèques populaires, tels que React.js.
+        "Passionné par le développement web et mobile, en tant que développeur débutant/junior, après avoir passé 8 mois à l'AFPA et acquis des compétences essentielles en plus de mes expériences autodidactes, j'ai développé une bonne connaissance des langages tels que HTML, CSS, JavaScript. J'ai également commencé à explorer des cadres et bibliothèques populaires, tels que React.js. et Mui
         Côté back-end, j'ai travaillé avec PHP, SQL et PHPMyAdmin, et j'ai récemment entamé mon parcours avec Node.js en utilisant le framework Express et MongoDB. Mon objectif ultime est de devenir un développeur full-stack spécialisé dans les technologies JavaScript."
       </p>
     </section>
