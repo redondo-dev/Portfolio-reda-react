@@ -12,6 +12,7 @@ import Projets from './pages/Projets';
 import Contact from './pages/Contactme';
 import Competences from './pages/Competences';
 import Error404 from './components/error/Error404';
+import GetContact from './components/contact/GetContact';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
     element: <Contact/>,
    
   },
+  {
+  path: "/getcontact",
+  element: <GetContact/>,
+ 
+},
   {
     path: "/services",
     element:  <Services/>,

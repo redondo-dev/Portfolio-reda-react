@@ -138,14 +138,14 @@ const MesProjets = () => {
             </CardContent>
             <CardActions>
               <a
-                href="URL_DE_VOTRE_SITE"
+                href="https://nba-conference-est-standing.firebaseapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button size="small">Voir le site</Button>
               </a>
               <a 
-              href="https://" 
+              href="https://github.com/redondo-dev/ApiNba" 
               target="_blank" 
               rel="noopener noreferrer">
                 <Button size="small">Voir lien GitHub</Button> 
