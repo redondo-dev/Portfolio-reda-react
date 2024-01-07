@@ -35,7 +35,8 @@ const MesCompetences = () => {
             <div className="inner-card">
               <FaDesktop className="icon" />
               <h3> Front-end</h3>
-              <p> HTML5, CSS3, Bootstrap, MUI, JavaScript, ES6</p>
+              <p> HTML5,CSS3,JavaScript,ES6 </p>
+              <p> Bootstrap, MUI </p>
               <p> Reactjs en cours d'apprentissage </p>
             </div>
           </motion.div>
@@ -68,8 +69,8 @@ const MesCompetences = () => {
             <div className="inner-card">
               <FaServer className="icon" />
               <h3> Back-end</h3>
-              <p> Php, Node.js, Sql, php myadmin</p>
-              <p> Encours d'apprentissage Express, MongoDB,GraphQl</p>
+              <p> Php, Sql, php myadmin</p>
+              <p> Encours d'apprentissage Node.js, Express, MongoDB</p>
             </div>
           </motion.div>
         </Tilt>

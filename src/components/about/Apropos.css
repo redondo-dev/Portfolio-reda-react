@@ -55,14 +55,14 @@
   }
 
   h2 {
-    animation: typingH2 5s steps(30,end) infinite;
+    animation: typingH2 5s linear infinite;
   }
   
   
   @keyframes typingH2 {
     0% {
       opacity: 0;
-      transform: translateX(-600px);
+      transform: translateX(-100%);;
     }
     100% {
       opacity: 1;

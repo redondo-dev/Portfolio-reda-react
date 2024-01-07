@@ -164,21 +164,28 @@ const MesProjets = () => {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                E-commerce
+               Panier pour E-commerce
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Site E-commerce 
+                Panier avec react bootstrap et une fake api e-commerce
               </Typography>
             </CardContent>
             <CardActions>
               <a
-                href="URL_DE_VOTRE_SITE"
+                href="https://panier-e-commerce-en-react.firebaseapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                
                 <Button size="small">Voir le site</Button>
               </a>
-              <Button size="small">Voir plus ...</Button>
+              <a 
+              href="https://github.com/redondo-dev/cart-e-commerce" 
+              target="_blank" 
+              rel="noopener noreferrer"> 
+              
+                <Button size="small">Voir lien GitHub</Button>
+                </a>
             </CardActions>
           </Card>
 </div>

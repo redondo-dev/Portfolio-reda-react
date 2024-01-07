@@ -1,36 +1,34 @@
+
 import React, { useState } from 'react';
-import { TextField, Button, Typography, Grid, Box,Snackbar} from "@mui/material";
-import axios from 'axios';
+import { TextField, Button, Typography, Grid, Box, Snackbar } from "@mui/material";
+import emailjs from 'emailjs-com';
 
 const Mescontact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [openSnackbar, setOpenSnackbar] = useState(false);
- 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost/portfolio/messages.php', {
+      await emailjs.send('service_1rokvym', 'template_6vwlgf8', {
         name,
         email,
         message,
-      });
+      }, '_hDDVl4VbYFe5LdKV');
 
-      console.log(response.data);
       setName("");
       setEmail("");
       setMessage("");
       setOpenSnackbar(true);
 
-    } 
-
-   
-catch (error) {
+    } catch (error) {
       console.error('Erreur lors de l\'envoi des données:', error);
     }
   };
+
   const handleCloseSnackbar = (event, reason) => {
     if (reason === 'clickaway') {
       return;
@@ -71,7 +69,7 @@ catch (error) {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     margin="normal"
-                    required
+                    required= "le nom est obligatoire"
                   />
                   <TextField
                     fullWidth
@@ -80,7 +78,7 @@ catch (error) {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     margin="normal"
-                    required
+                    required="email obligatoire"
                     type="email"
                   />
                   <TextField
@@ -90,7 +88,7 @@ catch (error) {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     margin="normal"
-                    required
+                    required='message obligatoire '
                     multiline
                     rows={4}
                   />
@@ -101,23 +99,20 @@ catch (error) {
               </Grid>
             </form>
           </Box>
-        </Grid> 
+        </Grid>
       </Grid>
-          <Snackbar
+      <Snackbar
         anchorOrigin={{
-        vertical: 'bottom',
-        horizontal: 'right',
-      }}
+          vertical: 'bottom',
+          horizontal: 'right',
+        }}
         open={openSnackbar}
-        autoHideDuration={5000} 
+        autoHideDuration={5000}
         onClose={handleCloseSnackbar}
-        message=" Votre message a bien été envoyé!"
-        sx={{ backgroundColor:'#32de84',marginBottom: '240px' }}
+        message=" 🙂,Votre message a bien été envoyé et sera traité dans les plus brefs delais !"
+        sx={{ backgroundColor: '#32de84', marginBottom: '240px' }}
       />
-    
-   
     </Box>
-    
   );
 }
 
