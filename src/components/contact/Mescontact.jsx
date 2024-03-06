@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { TextField, Button, Typography, Grid, Box, Snackbar } from "@mui/material";
 import emailjs from 'emailjs-com';
+import './contact.css'
 
 const Mescontact = () => {
   const [name, setName] = useState("");
@@ -36,8 +37,10 @@ const Mescontact = () => {
     setOpenSnackbar(false);
   };
 
-  return (
-    <Box sx={{ height: "100vh" }}>
+  return ( 
+    <>
+    <h1>Contactez Moi</h1> 
+    <Box className="box" sx={{ height: "100vh" }}>
       <Grid
         container
         direction="column"
@@ -47,8 +50,8 @@ const Mescontact = () => {
       >
         <Grid item xs={12} md={4}>
           <Box sx={{ p: 2 }}>
-            <Typography variant="h3" align="center" style={{ fontWeight: 'bold', fontFamily: 'sans-serif' }} mb={5}>
-              Contactez Moi
+            <Typography variant="h1" align="center" style={{color:'black', fontWeight: 'bold', fontFamily: 'sans-serif' }} mt={8}>
+            
             </Typography>
             <form onSubmit={handleSubmit}>
               <Grid container spacing={2}>
@@ -113,6 +116,7 @@ const Mescontact = () => {
         sx={{ backgroundColor: '#32de84', marginBottom: '240px' }}
       />
     </Box>
+    </>
   );
 }
 

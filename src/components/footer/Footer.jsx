@@ -9,15 +9,15 @@ const Footer = () => {
 
       <section className="social-icons">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <FaFacebook className="icon" />
+          <FaFacebook className="icone" />
         </a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-          <FaTwitter className="icon" />
+          <FaTwitter className="icone" />
         </a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <FaInstagram className="icon" />
+          <FaInstagram className="icone" />
         </a> 
-        <FaPhone className="phone-icon" />
+        <FaPhone className="phone-icone" />
           <p className="tel">0033-6-34-40-43-48</p>
       </section>
 
@@ -40,7 +40,7 @@ const Footer = () => {
             </li>
           </ul>
            </section>
-          <p> All right reserved RIAD Reda Fethi ©2023 </p>
+          <p> All right reserved RIAD Reda Fethi ©2024 </p>
        
         </section>
     );

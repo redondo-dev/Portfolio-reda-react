@@ -1,6 +1,6 @@
 
 .footer {
-    background-color: #333;
+  background: #1a1a1a;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -12,17 +12,31 @@
   .social-icons {
     margin-bottom: 20px;
   }
-  
-  .social-icons a {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 24px;
-    text-decoration: none;
-  }
-  
  
-  .phone-icon {
-    font-size: 24px;
+  .social-icons a {
+    margin: 10px;
+    color: #c11a1a;
+    width:60px;
+    height:60px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 5px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle; 
+    transition: all 0.4s ease-in;
+   
+  
+  }
+ .social-icons a:hover
+    {
+      background: #ffffff;
+      cursor: pointer;
+  }
+ 
+  .phone-icone {
+    font-size: 18px;
     margin-right: 10px;
   }
   
@@ -50,15 +64,33 @@
   
     .social-icons {
       margin-bottom: 10px;
+      
     }
   
     .social-icons a {
-      font-size: 20px;
+      width:50px;
+      height:50px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      font-size: 18px;
+      padding: 5px;
+      line-height: 55px;
+      text-align: center;
+      vertical-align: middle; 
+      transition: all 0.4s ease-in;
+     
+    
     }
+   .social-icons a:hover
+      {
+        background: #ffffff;
+        cursor: pointer;
+    }
+    
   
-    .phone-icon {
+    .phone-icone {
       margin-right: 0;
-      margin-bottom: 5px;
+     
     }
   
     .link ul li {
@@ -69,25 +101,27 @@
   /* Styles pour les écrans de très petite taille  */
   @media screen and (max-width: 480px) {
 
-
     .social-icons {
       display:flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 20px;
-      
+      vertical-align: middle;
+      margin-top: 20px; 
+     
     }
-  .phone-icon,
-  .icon{
-    font-size: 14px;
+  .phone-icone,
+  .icone{
+    font-size: 24px;
     
+   
   }
   
-    .social-icons a {
-      margin: 3px 5px;
+     .social-icons a {
+      margin: 5px;
+    
     }
-  
+   
     .contact-info p {
       margin-top: 5px;
       
@@ -102,7 +136,9 @@
 
     }
     .tel{
-      font-size: 10px;
+      margin-top: 10px;
+      font-size: 14px;
+      width:100px;
     }
   }
   

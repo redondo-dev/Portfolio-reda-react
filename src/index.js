@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import './index.css';
+
 import Acceuil from './pages/Acceuil';
 import Services from './pages/Services';
 import Projets from './pages/Projets';

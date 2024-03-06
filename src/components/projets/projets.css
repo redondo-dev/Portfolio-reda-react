@@ -1,3 +1,5 @@
+
+
 h1{
     font-weight: 300;
     font-size: 3em;
@@ -12,10 +14,13 @@ align-items: center;
 text-align: center;
 grid-template-columns: repeat(3, 1fr);
 grid-gap: 1rem;
- margin:0px 10px 10px 90px;   
-
-
+ margin:0px 10px 10px 90px; 
+ /* background-image: url('');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; */
 }
+
 /* Pour les écrans de taille moyenne (tablette)*/
 @media (max-width: 768px) {
     .projets {

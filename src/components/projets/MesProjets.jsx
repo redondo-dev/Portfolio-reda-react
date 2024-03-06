@@ -13,8 +13,7 @@ const MesProjets = () => {
     <>
       <h1>Mes Projets</h1>
 
-      <div className="projets">
-       
+      <section className="projets">
         <div className="projet2">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -202,23 +201,30 @@ const MesProjets = () => {
                 Site pour chauffeur VTC
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Un site pour un chauffeur VTC avec des réservations et des ...
+                Un site pour un chauffeur VTC Marseillais en React-js 
               </Typography>
             </CardContent>
 
             <CardActions>
-              <a
-                href="URL_DE_VOTRE_SITE"
+            <a
+                href="https://amvtc13-d0249.firebaseapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                
                 <Button size="small">Voir le site</Button>
               </a>
-              <Button size="small">Voir plus ...</Button>
+              <a 
+              href="https://github.com/redondo-dev/mariaVTC" 
+              target="_blank" 
+              rel="noopener noreferrer"> 
+              
+                <Button size="small">Voir lien GitHub</Button>
+                </a>
             </CardActions>
           </Card>
         </div>
-        </div>
+        </section>
        
     </>
   );

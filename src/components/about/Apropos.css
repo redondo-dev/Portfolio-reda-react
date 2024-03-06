@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
-
+body{
+  max-width: 100%;
+}
 .acceuil {
     display: flex;
     flex-direction: column;
@@ -13,7 +15,7 @@
    
   }
   .portfolio{
-    color: white;
+    color: white; 
   }
   
   .profil {
@@ -70,6 +72,24 @@
     }
   }
   
- 
+  @media screen and (max-width: 768px){
+    .portfolio{
+      font-size: 3rem;
+    }
+    h2 {
+      animation: typingH2 7s linear infinite;
+    }
+    
+    
+    @keyframes typingH2 {
+      20% {
+        opacity: 0;
+        transform: translateX(50px);;
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(80px);
+      }
+  }
   
-  
+}
