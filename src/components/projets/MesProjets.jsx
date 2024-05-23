@@ -1,6 +1,8 @@
 import React from "react";
 import "./projets.css";
 import imagevoiture from "../../assets/toyota-car.jpg";
+import imageredondo from "../../assets/redondo.jpg";
+import ImageApp from "../../assets/meteoApp.png"
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -27,7 +29,8 @@ const MesProjets = () => {
                 Projet librairie
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Cherchez le livre et l'édition en utilisant axios et l'API de Google Books.
+                Cherchez le livre et l'édition en utilisant axios et l'API de
+                Google Books.
               </Typography>
             </CardContent>
             <CardActions>
@@ -38,13 +41,13 @@ const MesProjets = () => {
               >
                 <Button size="small">Voir le site</Button>
               </a>
-              <a 
-              href="https://github.com/redondo-dev/Ebook" 
-              target="_blank" 
-              rel="noopener noreferrer">
-                <Button size="small">Voir lien GitHub</Button> 
+              <a
+                href="https://github.com/redondo-dev/Ebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
               </a>
-              
             </CardActions>
           </Card>
         </div>
@@ -73,17 +76,17 @@ const MesProjets = () => {
               >
                 <Button size="small">voir le site </Button>
               </a>
-             <a 
-             href="https://github.com/redondo-dev/apifilmreda" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              <a
+                href="https://github.com/redondo-dev/apifilmreda"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              <Button size="small">Voir le lien Github </Button>
+                <Button size="small">Voir le lien Github </Button>
               </a>
             </CardActions>
           </Card>
         </div>
-     
+
         <div className="projet5">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -94,10 +97,10 @@ const MesProjets = () => {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-               Todo-List
+                Todo-List
               </Typography>
               <Typography variant="body2" color="text.secondary">
-              Todolist
+                Todolist
               </Typography>
             </CardContent>
             <CardActions>
@@ -108,14 +111,14 @@ const MesProjets = () => {
               >
                 <Button size="small">Voir le site</Button>
               </a>
-              
-              <a 
-              href="https://github.com/redondo-dev/TodoList-react" 
-              target="_blank" 
-              rel="noopener noreferrer">
-                <Button size="small">Voir lien GitHub</Button> 
+
+              <a
+                href="https://github.com/redondo-dev/TodoList-react"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
               </a>
-              
             </CardActions>
           </Card>
         </div>
@@ -143,13 +146,13 @@ const MesProjets = () => {
               >
                 <Button size="small">Voir le site</Button>
               </a>
-              <a 
-              href="https://github.com/redondo-dev/ApiNba" 
-              target="_blank" 
-              rel="noopener noreferrer">
-                <Button size="small">Voir lien GitHub</Button> 
+              <a
+                href="https://github.com/redondo-dev/ApiNba"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
               </a>
-              
             </CardActions>
           </Card>
         </div>
@@ -163,7 +166,7 @@ const MesProjets = () => {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-               Panier pour E-commerce
+                Panier pour E-commerce
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Panier avec react bootstrap et une fake api e-commerce
@@ -175,20 +178,19 @@ const MesProjets = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                
                 <Button size="small">Voir le site</Button>
               </a>
-              <a 
-              href="https://github.com/redondo-dev/cart-e-commerce" 
-              target="_blank" 
-              rel="noopener noreferrer"> 
-              
+              <a
+                href="https://github.com/redondo-dev/cart-e-commerce"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button size="small">Voir lien GitHub</Button>
-                </a>
+              </a>
             </CardActions>
           </Card>
-</div>
-          <div className="projet1">
+        </div>
+        <div className="projet7">
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
@@ -201,31 +203,94 @@ const MesProjets = () => {
                 Site pour chauffeur VTC
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Un site pour un chauffeur VTC Marseillais en React-js 
+                Un site pour un chauffeur VTC Marseillais en React-js
               </Typography>
             </CardContent>
 
             <CardActions>
-            <a
+              <a
                 href="https://amvtc13-d0249.firebaseapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                
                 <Button size="small">Voir le site</Button>
               </a>
-              <a 
-              href="https://github.com/redondo-dev/mariaVTC" 
-              target="_blank" 
-              rel="noopener noreferrer"> 
-              
+              <a
+                href="https://github.com/redondo-dev/mariaVTC"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button size="small">Voir lien GitHub</Button>
-                </a>
+              </a>
             </CardActions>
           </Card>
         </div>
-        </section>
-       
+        <div className="projet8">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src={imageredondo}
+              alt="blog foot"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Blog Foot Italien
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Un blog pour amateur de foot italien en Node js,Express et
+                MongoDb et reactJs en front
+              </Typography>
+            </CardContent>
+
+            <CardActions>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <Button size="small">
+                  le site est en cours de finalisation
+                </Button>
+              </a>
+              <a
+                href="https://github.com/redondo-dev/blog-calcio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
+
+        <div className="projet9">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src={ImageApp}
+              alt="MeteoApp"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Meteo application avec React Native{" "}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Cherchez la Meteo ave OpenWeatherAPi
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <Button size="small">Voir le site</Button>
+              </a>
+              <a
+                href="https://github.com/redondo-dev/MeteoApp-"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
+      </section>
     </>
   );
 };

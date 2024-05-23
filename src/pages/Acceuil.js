@@ -7,6 +7,7 @@ import Mescontact from "../components/contact/Mescontact";
 import MesCompetences from "../components/competences/MesComptences";
 import MesServices from"../components/services/MesServices";
 
+
 const Acceuil = () => {
   return (
     <>

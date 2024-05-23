@@ -1,6 +1,6 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-import { FaDesktop, FaServer, FaCodeBranch,} from "react-icons/fa";
+import { FaDesktop, FaServer, FaCodeBranch } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { motion } from "framer-motion";
 import "./competence.css";
@@ -40,8 +40,8 @@ const MesCompetences = () => {
                 <p> Bootstrap, MUI </p>
                 <p>
                   {" "}
-                  React-js, React hooks et Redux toolkit en cours
-                  d'apprentissage{" "}
+                  React-js,React hooks et Redux toolkit , React Native et Next
+                  Js en cours d'apprentissage{" "}
                 </p>
               </div>
             </motion.div>
@@ -142,7 +142,7 @@ const MesCompetences = () => {
               }}
             >
               <div className="inner-card">
-              <SiPostman className="icon"/>  
+                <SiPostman className="icon" />
                 <h3> Securité et Test </h3>
                 <p> Sécurité de l'authentification avec JWT</p>
                 <p> Automatisation des tests d'API avec Postman</p>
