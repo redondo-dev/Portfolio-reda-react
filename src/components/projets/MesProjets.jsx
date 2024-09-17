@@ -2,7 +2,7 @@ import React from "react";
 import "./projets.css";
 import imagevoiture from "../../assets/toyota-car.jpg";
 import imageredondo from "../../assets/redondo.jpg";
-import ImageApp from "../../assets/meteoApp.png"
+import ImageApp from "../../assets/meteoApp.png";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -209,7 +209,7 @@ const MesProjets = () => {
 
             <CardActions>
               <a
-                href="https://amvtc13-d0249.firebaseapp.com"
+                href="https://amvtc13.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
