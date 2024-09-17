@@ -45,11 +45,10 @@ const Apropos = () => {
         compétences essentielles en plus de mes expériences autodidactes, j'ai
         développé une bonne connaissance des langages tels que HTML, CSS,
         JavaScript. J'ai également commencé à explorer des cadres et
-        bibliothèques populaires, tels que React.js et Mui. Côté back-end, j'ai
+        bibliothèques populaires, tels que React.js,Redux,Redux-toolkit et Mui et react-bootstrap ainsi que Tailwind css. Côté back-end, j'ai
         travaillé avec PHP, SQL et PHPMyAdmin, et j'ai récemment entamé mon
         parcours avec Node.js en utilisant le framework Express et MongoDB. Mon
-        objectif ultime est de devenir un développeur full-stack spécialisé dans
-        les technologies JavaScript."
+        objectif ultime est de devenir un développeur full-stack spécialisé."
       </p>
     </section>
   );
