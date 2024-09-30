@@ -3,6 +3,7 @@ import "./projets.css";
 import imagevoiture from "../../assets/toyota-car.jpg";
 import imageredondo from "../../assets/redondo.jpg";
 import ImageApp from "../../assets/meteoApp.png";
+import bestoffootball from"../../assets/bestoffoot.png"
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -290,6 +291,39 @@ const MesProjets = () => {
             </CardActions>
           </Card>
         </div>
+
+        <div className="projet10">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src={bestoffootball}
+              alt="football-best-of"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                 application football avec next-js{" "}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                meilleurs footballeurs de l'histoire
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <a href="https://bestl0-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <Button size="small">Voir le site</Button>
+              </a>
+              <a
+                href="https://github.com/redondo-dev/best10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
+
+        
       </section>
     </>
   );
