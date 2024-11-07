@@ -23,7 +23,7 @@ const MesCompetences = () => {
                 background: "linear-gradient(to bottom, #224C98, black)",
                 color: "white",
                 width: "300px",
-                height: "300px",
+                minHeight: "420px",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -68,7 +68,7 @@ const MesCompetences = () => {
                 alignItems: "center",
                 marginLeft: "auto",
                 marginRight: "auto",
-                // marginBottom: "20px",
+                marginBottom: "20px",
                 boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)",
               }}
             >
@@ -172,7 +172,7 @@ const MesCompetences = () => {
                 alignItems: "center",
                 marginLeft: "auto",
                 marginRight: "auto",
-                // marginBottom: "20px",
+                marginBottom: "20px",
                 boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)",
               }}
             >
