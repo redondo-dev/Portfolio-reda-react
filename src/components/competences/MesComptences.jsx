@@ -37,10 +37,11 @@ const MesCompetences = () => {
                 <FaDesktop className="icon" />
                 <h3> Front-end</h3>
                 <p> HTML5,CSS3,JavaScript,ES6 </p>
-                <p> Bootstrap, MUI </p>
+                <p> Bootstrap,React Bootsrap,MUI,Tailwind css,Hyper UI,Framer Motion</p>
+                <p> Clerk et Next-auth </p>
                 <p>
                   {" "}
-                  React-js,React hooks et Redux toolkit , React Native et Next
+                  React-js,React hooks et Redux toolkit , React Native et Next 
                   Js en cours d'apprentissage{" "}
                 </p>
               </div>
@@ -74,10 +75,9 @@ const MesCompetences = () => {
               <div className="inner-card">
                 <FaServer className="icon" />
                 <h3> Back-end</h3>
-                <p> Php, Sql, php myadmin</p>
-                <p> Encours d'apprentissage Node.js, Express, MongoDB</p>
-                {/* <p> Sécurité de l'authentification avec JWT</p>
-              <p> Automatisation des tests d'API avec Postman</p> */}
+                <p> Php, Sql, NoSql</p>
+                <p> Encours d'apprentissage Node.js, Express, MongoDB , Prisma </p>
+             
               </div>
             </motion.div>
           </Tilt>
@@ -112,7 +112,42 @@ const MesCompetences = () => {
                 <h3> Gestion de version</h3>
                 <p> Git</p>
                 <p>Github</p>
-                <p>.</p>
+              
+              </div>
+            </motion.div>
+          </Tilt>
+        </div>
+        <br />
+        <br />
+        <div className="competence-card">
+          <Tilt className="tilt-card" options={{ max: 30 }}>
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+                boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.3)",
+              }}
+              style={{
+                borderRadius: "2rem",
+                borderBlockColor: "black",
+                backgroundColor: "lightblue",
+                background: "linear-gradient(to bottom, #2E5090, black)",
+                color: "white",
+                width: "300px",
+                height: "300px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                marginLeft: "auto",
+                marginRight: "auto",
+                marginBottom: "20px",
+                boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)",
+              }}
+            >
+              <div className="inner-card">
+                <FaCodeBranch className="icon" />
+                <h3> Deploiement et Hebergement </h3>
+                <p> Vercel </p>
+                <p> Firebase </p>
               </div>
             </motion.div>
           </Tilt>

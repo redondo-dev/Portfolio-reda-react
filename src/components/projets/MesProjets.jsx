@@ -4,6 +4,7 @@ import imagevoiture from "../../assets/toyota-car.jpg";
 import imageredondo from "../../assets/redondo.jpg";
 import ImageApp from "../../assets/meteoApp.png";
 import bestoffootball from"../../assets/bestoffoot.png"
+import cabinetMedical from "../../assets/cabinetMedical.jpg"
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -314,6 +315,36 @@ const MesProjets = () => {
               </a>
               <a
                 href="https://github.com/redondo-dev/best10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
+        <div className="projet11">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src={cabinetMedical}
+              alt="cabinet medical"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                cabinet medical avec next-js{" "}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                site pour cabinet medical specialisé en esthetique
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <a href="https://cabinet-medical-gray.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <Button size="small">Voir le site</Button>
+              </a>
+              <a
+                href="https://github.com/redondo-dev/cabinetMedical"
                 target="_blank"
                 rel="noopener noreferrer"
               >
