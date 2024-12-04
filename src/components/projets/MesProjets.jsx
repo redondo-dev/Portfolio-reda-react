@@ -3,8 +3,9 @@ import "./projets.css";
 import imagevoiture from "../../assets/toyota-car.jpg";
 import imageredondo from "../../assets/redondo.jpg";
 import ImageApp from "../../assets/meteoApp.png";
-import bestoffootball from"../../assets/bestoffoot.png"
-import cabinetMedical from "../../assets/cabinetMedical.jpg"
+import bestoffootball from "../../assets/bestoffoot.png";
+import cabinetMedical from "../../assets/cabinetMedical.jpg";
+import caferiad from "../../assets/caferiad.png";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -303,14 +304,18 @@ const MesProjets = () => {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                 application football avec next-js{" "}
+                application football avec next-js{" "}
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 meilleurs footballeurs de l'histoire
               </Typography>
             </CardContent>
             <CardActions>
-              <a href="https://bestl0-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://bestl0-app.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button size="small">Voir le site</Button>
               </a>
               <a
@@ -340,7 +345,11 @@ const MesProjets = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <a href="https://cabinet-medical-gray.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://cabinet-medical-gray.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button size="small">Voir le site</Button>
               </a>
               <a
@@ -353,8 +362,40 @@ const MesProjets = () => {
             </CardActions>
           </Card>
         </div>
-
-        
+        <div className="projet12">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              sx={{ height: 200 }}
+              src={caferiad}
+              alt="café riad"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+              Cafe site viirtine avec vite-js{" "}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                site vitrine pour un café Marseillais
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <a
+                href="https://riad-cofee.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir le site</Button>
+              </a>
+              <a
+                href="https://github.com/redondo-dev/riad-cofee"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="small">Voir lien GitHub</Button>
+              </a>
+            </CardActions>
+          </Card>
+        </div>
       </section>
     </>
   );

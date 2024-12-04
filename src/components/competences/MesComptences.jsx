@@ -37,11 +37,15 @@ const MesCompetences = () => {
                 <FaDesktop className="icon" />
                 <h3> Front-end</h3>
                 <p> HTML5,CSS3,JavaScript,ES6 </p>
-                <p> Bootstrap,React Bootsrap,MUI,Tailwind css,Hyper UI,Framer Motion</p>
+                <p>
+                  {" "}
+                  Bootstrap,React Bootsrap,MUI,Tailwind css,Hyper UI,Framer
+                  Motion
+                </p>
                 <p> Clerk et Next-auth </p>
                 <p>
                   {" "}
-                  React-js,React hooks et Redux toolkit , React Native et Next 
+                  React-js,React hooks et Redux toolkit , React Native et Next
                   Js en cours d'apprentissage{" "}
                 </p>
               </div>
@@ -76,8 +80,10 @@ const MesCompetences = () => {
                 <FaServer className="icon" />
                 <h3> Back-end</h3>
                 <p> Php, Sql, NoSql</p>
-                <p> Encours d'apprentissage Node.js, Express, MongoDB , Prisma </p>
-             
+                <p>
+                  {" "}
+                  Encours d'apprentissage Node.js, Express, MongoDB , Prisma{" "}
+                </p>
               </div>
             </motion.div>
           </Tilt>
@@ -112,7 +118,6 @@ const MesCompetences = () => {
                 <h3> Gestion de version</h3>
                 <p> Git</p>
                 <p>Github</p>
-              
               </div>
             </motion.div>
           </Tilt>
